@@ -33,8 +33,8 @@ public class SplashActivity extends Activity {
                  * instead of Splash
                  *
                  */
-                finish();
                 startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                finish();
             }
         }.sendEmptyMessageDelayed(1, 3000);
     }
